@@ -2,7 +2,7 @@
 
 ENGO 551 - Adv. Topics on Geospatial Technologies
 
-Link to YouTube Screencast YouTube Video: https://youtu.be/rclV3iV5jGQ
+Link to YouTube Screencast YouTube Video: https://youtu.be/mZFTnLy79A8
 
 My project is a personal webpage about myself. I have a home page with three additional tabs, About me, My Photography, and Social. 
 The About Me tab provides a description about myself and a few of my interests, along with a couple pictures pf myself. 
