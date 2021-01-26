@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="StyleSheet.css">
+        <link rel="stylesheet" href="Responsive_Header.css">
+        <link rel="stylesheet" href="Pictures.css">
+        <link rel="stylesheet" href="Tables.scss">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+        <style>
+        table, th, td {
+          border: 1px solid black;
+          color: lightgrey;
+        }
+        </style>
+
+
+
+    </head>
+    <body>
+
+        <div class="header">
+        <a class= "logo">My Photography</a>
+          <div class="header-right">
+            <a href="index.html">Home</a>
+            <a href="About_Me.html">About Me</a>
+            <a class="active">My Photography</a>
+            <a href="Social.html">Social</a>
+          </div>
+        </div>
+
+        <!-- Image columns -->
+
+          <h3 style = "color: lightgrey">Photo Gallery</h3>
+          <p></p>
+
+          <p3>The following table displays the equipment that was used to capture the images below. </p3>
+
+          <table id = "my_table">
+              <tr>
+                <th>Camera(s)</th>
+                <th>Lense(s)</th>
+              </tr>
+              <tr>
+                <td>Nikon D750</td>
+                <td>50-200mm f2.8</td>
+              </tr>
+              <tr>
+                <td>GoPro Hero 8</td>
+                <td>NA</td>
+              </tr>
+          </table>
+
+
+          <p></p>
+
+          <div style="text-align:center">
+          <p2>Click on the Images Below:</p2>
+          <p></p>
+        </div>
+        <div class = "txtbox1">
+        <div class="row">
+          <div class="column">
+            <img src="DSC_6000.jpg" style="width:100%" onclick="expand(this);">
+          </div>
+
+          <div class="column">
+            <img src="GOPR0657.jpg" style="width:100%" onclick="expand(this);">
+          </div>
+
+          <div class="column">
+            <img src="5.jpg" style="width:100%" onclick="expand(this);">
+          </div>
+
+          <div class="column">
+            <img src="10.jpg" style="width:100%" onclick="expand(this);">
+          </div>
+
+        </div>
+
+        <div class="container">
+          <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+          <img id="expandedImg" style="width:100%">
+          <div id="imgtext"></div>
+        </div>
+        </div>
+
+        <script>
+          function expand(imgs) {
+            var expandImg = document.getElementById("expandedImg");
+            var imgText = document.getElementById("imgtext");
+            expandImg.src = imgs.src;
+            imgText.innerHTML = imgs.alt;
+            expandImg.parentElement.style.display = "block";
+          }
+        </script>
+
+      </body>
+</html>

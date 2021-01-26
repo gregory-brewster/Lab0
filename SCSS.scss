@@ -1,0 +1,21 @@
+$color: #333333;
+
+styles{
+  font-size: 15px;
+  color: $color;
+
+}
+
+div{
+
+  p{
+    @extend styles;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  ul{
+    @extend styles;
+    text-align: left;
+  }
+
+}

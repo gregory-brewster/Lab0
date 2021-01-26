@@ -1,0 +1,40 @@
+
+a:link {
+  background-color: rgb(227, 227, 227);
+}
+
+.header {
+  overflow: hidden;
+  background-image: linear-gradient(rgb(230, 230, 230), rgb(196, 196, 196));
+  padding: 20px 10px;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 2%;
+}
+
+.header a:hover {
+  background-color: hsl(183, 0%, 79%);
+  color: black;
+}
+
+.header a.active {
+  background-color: #c5def7;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}

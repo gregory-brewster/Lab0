@@ -1,0 +1,90 @@
+
+.boxed {
+  background-color:powerblue;
+}
+
+h1 {
+  color: #333333;
+  text-align: left;
+
+  font-style: sans-serif;
+  font-weight: normal;
+
+  margin-left: 5%;
+}
+
+h3 {
+  color: light;
+  text-align: center;
+  font-weight: normal;
+  padding-top: 2%;
+  float: center;
+
+}
+
+
+p1 {
+  color: black;
+  font-size: 15px;
+
+}
+
+p2 {
+  color: lightgrey;
+  font-size: 20px;
+
+}
+
+p3 {
+  color: #333333;
+  font-size: 15px;
+  margin-left: 15px;
+  text-align: left;
+}
+
+td{
+text-align: center;
+}
+
+th{
+background-color: grey;
+}
+
+#my_table{
+    margin-top:5px;
+    margin-left: 15px;
+}
+
+.txtbox1{
+  overflow: hidden;
+  background-color: rgb(191, 191, 191);
+  padding: 5% 5% 5% 5%;
+  margin-top: 0%;
+  margin-left: 0%;
+  width: 100%;
+  text-align: left;
+}
+
+.txtbox2{
+  overflow: hidden;
+  background-color: #c5def7;
+  padding: 2% 5% 5% 5%;
+  margin-left: 11%;
+  width: 75%;
+  float: center;
+  text-align: left;
+}
+
+.txtbox3{
+  overflow: hidden;
+  background-color: rgb(191, 191, 191);
+  padding: 2% 2% 2% 2%;
+  margin-top: 0%;
+  margin-bottom: 2%;
+  width: 100%;
+  text-align: center;
+}
+
+body {
+  background: #333333 !important;
+}

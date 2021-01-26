@@ -1,0 +1,10 @@
+styles, div p, div ul {
+  font-size: 15px;
+  color: #333333; }
+
+div p {
+  font-family: Arial, Helvetica, sans-serif; }
+div ul {
+  text-align: left; }
+
+/*# sourceMappingURL=SCSS.css.map */
